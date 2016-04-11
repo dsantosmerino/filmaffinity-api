@@ -1,6 +1,9 @@
 require "filmaffinity"
 require "sinatra"
-require "sinatra/reloader"
+
+get "/" do
+  erb :index
+end
 
 get "/top" do
   top = FilmAffinity::Top.new

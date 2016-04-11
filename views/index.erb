@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unofficial filmaffinity  API | Home</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Unofficial filmaffinity <small>API</small></h1>
+    </header>
+    <section class="container">
+      <article id="description">
+        <h3>REST API</h3>
+        <p>The REST API provide programmatic access to read data from Filmaffinity.com in spanish using this <a href="https://rubygems.org/gems/filmaffinity">gem</a>.</p>
+      </article>
+      <article id="features">
+        <h3>Features</h3>
+        <ul>
+          <li>
+            <p><b>GET </b> <a href="/top">/top</a> <span class="label label-info">new</span></p>
+            <p>Returns an array with Top 30 movies, just including <code>id</code> and <code>title</code></p>
+          </li>
+          <li>
+            <p><b>GET </b><a href="/search/query">/search/:query</a> <span class="label label-info">new</span></p>
+            <p>Returns an array with movies that includes your query in the movie title, just including <code>id</code> and <code>title</code></p>
+          </li>
+          <li>
+            <p><b>GET </b><a href="/movie/504889 ">/movie/:id</a> <span class="label label-info">new</span></p>
+            <p>Returns an object that contains full movie data</p>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h3>Feedback and contribution</h3>
+        <p>If you find any issues with the API or you want to contribute, please use our <a href="https://github.com/davidsantosmerino/filmaffinity-gem">github repository</a>.</p>
+      </article>
+    </section>
+  </body>
+</html>

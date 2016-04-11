@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Gotham Narrow SSm','Helvetica Neue',Helvetica,sans-serif;
+}
+
+header {
+  margin: 0px;
+  background-color: #3C6E99;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 auto;
+  padding-left: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FDCC1A;
+}
+
+h1 small {
+  color: #FFFFFF;
+}
+
+section {
+
+}
+
+#features li {
+  list-style-type: none;
+}
