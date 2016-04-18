@@ -16,8 +16,8 @@ get "/movie/:id" do
   movie.to_json
 end
 
-get "/search/:query" do
-  query = params[:query]
-  search = FilmAffinity::Search.new query
+get "/search" do
+  q = params[:q]
+  search = FilmAffinity::Search.new q
   search.to_json
 end
