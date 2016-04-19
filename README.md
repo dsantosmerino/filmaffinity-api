@@ -7,7 +7,7 @@ The REST API provide programmatic access to read data from Filmaffinity.com in s
  - **GET** ```/top```
  Returns an array with Top 30 movies, just including ```id``` and ```title```
 
- - **GET** ```/search/:query```
+ - **GET** ```/search?q=query```
  Returns an array with movies that includes your query in the movie title, just including ```id``` and ```title```
 
  - **GET** ```/movie/:id```
