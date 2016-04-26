@@ -1,7 +1,7 @@
 # Unofficial filmaffinity API
 
-## REST API
-The REST API provide programmatic access to read data from Filmaffinity.com in spanish using [filmaffinity gem](https://rubygems.org/gems/filmaffinity).
+## RESTful API
+This RESTful API provides programmatic access to read data from Filmaffinity.com in english or spanish using [filmaffinity ruby gem](https://rubygems.org/gems/filmaffinity).
 
 ## Features
  - **GET** ```/top```
