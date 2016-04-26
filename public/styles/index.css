@@ -21,6 +21,7 @@ header h1 {
 
 h1 small {
   color: #FFFFFF;
+  line-height: 50px;
 }
 
 section {
