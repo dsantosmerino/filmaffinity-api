@@ -12,6 +12,7 @@ header {
 }
 
 header h1 {
+  line-height: 50px;
   margin: 0 auto;
   padding-left: 15px;
   font-family: 'Open Sans', sans-serif;
