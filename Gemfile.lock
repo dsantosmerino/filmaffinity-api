@@ -28,7 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  filmaffinity (= 1.1)
+  filmaffinity (~> 1.1.0)
   sinatra
 
 BUNDLED WITH
