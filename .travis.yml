@@ -1,0 +1,16 @@
+language: ruby
+notifications:
+  email: false
+rvm:
+- 2.0
+- 2.1
+- ruby-head
+script:
+- bundle exec rake spec
+deploy:
+  provider: heroku
+  api_key:
+    secure: BiYBJp1nZiheDrMmChkyXG/tPPLDPT7uNjMIRwINFDGLb3p0I0xRDSLEvg73oXK4Aq3U1r+YfarbGPihPjM9l82eTy010zt4FyorBt3/cEnRpnKFQr14BDGrUELxnGeuGULjxpJhezcYX+RpNZ0yt4kVpAWHJpr9ZFWNaUHujb+IdUo6mE8UyOyeSVSdaKuywT89KAKG7hsidj8DanU+zy3LknHdIMj3wRFRbnCOcq//R5Ox98NenvzukmLFwSOFvHiHdS5MaljFrZ0oheP+86WNrUDw2Tl4Z1rUcOHOSHnWTXdzRKd2869Dr4vhZrchEyphovgN+pkSClPMTe9lcl52TERpqKB/fdXAn2JgtGGsHui3rwNm04O0uwd7bk8tmC/Qd7J2G955Tb5hoaF3SyskLrUFrCxb/Flvvllt4FrO4VT+PpZvD3P+Z3SWTqyhAYXtf/js2xeiZo3HmVbog78yRIZquJe++iFI12rHhWG3XoJe37qm3tl5SdKoB6XkJw4+6xq8Qx18BSgUkNlzKoW01/BthwslEqkrwJYCcd4Mt19aYm4+Twuok5UspUkcJ4BXBqDX8g06zuW9kBfR7G4IfXYeXblr3iGcpgnQFXfE+Fwe7yQfwpsLn3F9dOb/eix4xh1QBQQs6WQjF9eSAvPjiKh54BIhWPLOmhTEAUo=
+  app: filmaffinity-unofficial
+  on:
+    repo: davidsantosmerino/filmaffinity-api
