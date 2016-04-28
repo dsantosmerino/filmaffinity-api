@@ -19,6 +19,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rake (11.1.2)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -43,6 +44,7 @@ PLATFORMS
 
 DEPENDENCIES
   filmaffinity (~> 1.1.0)
+  rake
   rspec
   sinatra
 

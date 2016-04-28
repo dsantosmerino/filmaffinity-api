@@ -1,8 +1,6 @@
 source "https://rubygems.org/"
 
+gem "rake"
+gem "rspec"
 gem "sinatra"
 gem "filmaffinity", "~>1.1.0"
-
-group :devolpment, :test do
-  gem 'rspec'
-end
