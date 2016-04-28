@@ -3,7 +3,7 @@ require "sinatra"
 
 before "/api/*" do
   content_type "application/json"
-  lang = params[:lang]
+  lang = params[:lang].nil? ? 'EN' : params[:lang]
   imgur_id = params[:imgur_id]
   FilmAffinity.configure do |config|
     config.language = lang
