@@ -1,14 +1,10 @@
 require "filmaffinity"
 require "sinatra"
 
-before '/api/*' do
-   content_type 'application/json'
-end
-
-before do
+before "/api/*" do
+  content_type "application/json"
   lang = params[:lang]
   imgur_id = params[:imgur_id]
-  imgur_id = nil if imgur_id == "nil"
   FilmAffinity.configure do |config|
     config.language = lang
     config.imgur_id = imgur_id

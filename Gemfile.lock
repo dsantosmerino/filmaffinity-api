@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    filmaffinity (1.0.0)
+    filmaffinity (1.1.0)
       imgur-api (~> 0)
       json (~> 1.8)
       nokogiri (~> 1.6)
@@ -28,7 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  filmaffinity (= 1.0)
+  filmaffinity (~> 1.1.0)
   sinatra
 
 BUNDLED WITH

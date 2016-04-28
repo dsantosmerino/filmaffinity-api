@@ -1,4 +1,4 @@
 source "https://rubygems.org/"
 
 gem "sinatra"
-gem "filmaffinity", "1.0"
+gem "filmaffinity", "~>1.1.0"
