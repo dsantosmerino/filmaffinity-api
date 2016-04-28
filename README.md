@@ -15,7 +15,8 @@ This RESTful API provides programmatic access to read data from Filmaffinity.com
 
 ## Options
  - LANGUAGE: ```"EN"``` or ```"ES"```
- - YOUR_CLIENT_ID: ```"Your_Imgur_API_client_ID"``` (Delete the imgur_id query or assign it a "nil" value to get a filmaffinity url on movie-poster request).
  
+ - YOUR_CLIENT_ID: ```"Your_Imgur_API_client_ID"``` (Delete the imgur_id query or assign it a "nil" value to get a filmaffinity url on movie-poster request).
+
 ## Feedback and contribution
 If you find any issues with the API or you want to contribute, please use this github repository.
