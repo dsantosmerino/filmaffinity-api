@@ -2,19 +2,19 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    filmaffinity (1.1.1)
+    filmaffinity (1.1.2)
       imgur-api (~> 0)
       json (~> 1.8)
       nokogiri (~> 1.6)
-    httparty (0.14.0)
+    httparty (0.15.6)
       multi_xml (>= 0.5.2)
     imgur-api (0.0.4)
       httparty
     json (1.8.6)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.3.0)
     multi_xml (0.6.0)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -42,10 +42,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  filmaffinity (~> 1.1.1)
+  filmaffinity (~> 1.1.2)
   rake
   rspec
   sinatra
 
 BUNDLED WITH
-   1.13.6
+   1.15.4
