@@ -2,7 +2,7 @@ language: ruby
 notifications:
   email: false
 rvm:
-- 2.1
+- 2.3
 - ruby-head
 
 deploy:
