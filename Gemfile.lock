@@ -19,9 +19,12 @@ GEM
     multi_xml (0.6.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.8)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    puma (5.5.2)
+      nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
     rack-protection (2.1.0)
@@ -53,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   filmaffinity (~> 1.1.4)
+  puma
   rake
   rspec
   sinatra
